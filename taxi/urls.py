@@ -17,7 +17,7 @@ from .views import (
 
 urlpatterns = [
     path("", index, name="index"),
-    
+
     # Manufacturers
     path(
         "manufacturers/",
